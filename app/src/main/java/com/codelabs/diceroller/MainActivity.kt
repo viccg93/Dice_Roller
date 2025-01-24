@@ -32,14 +32,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             DiceRollerTheme {
                 DiceRollerApp()
-                /*
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    DiceWithButtonAndImage(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-                 */
             }
         }
     }
@@ -79,15 +71,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         }
     }
 }
-/*
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    DiceRollerTheme {
-        DiceWithButtonAndImage("Android")
-    }
-}
- */
+
 //esta funcion es la app en si misma
 @Preview(showBackground = true)
 @Composable

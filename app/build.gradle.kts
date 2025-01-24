@@ -19,6 +19,10 @@ android {
     }
 
     buildTypes {
+        //se debe agregar esta directiva para poder depurar
+        create("customDebugType") {
+            isDebuggable = true
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(
